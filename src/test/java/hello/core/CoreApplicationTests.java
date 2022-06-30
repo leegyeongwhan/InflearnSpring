@@ -13,18 +13,18 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class CoreApplicationTests {
-//    MemberService memberService;
-//    OrderService orderService ;
-//
-//    @Test
-//    void contextLoads() {
-//        Long memberID = 1L;
-//		Member member = new Member(memberID, "memberA", Grade.VIP);
-//		memberService.joint(member);
-//
-//		Order order = orderService.createOrder(memberID, "itemA", 10000);
-//		Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
-//
-//	}
+    MemberService memberService;
+    OrderService orderService ;
+
+    @Test
+    void contextLoads() {
+        Long memberID = 1L;
+		Member member = new Member(memberID, "memberA", Grade.VIP);
+		memberService.joint(member);
+
+		Order order = orderService.createOrder(memberID, "itemA", 10000);
+		Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
+
+	}
 
 }
