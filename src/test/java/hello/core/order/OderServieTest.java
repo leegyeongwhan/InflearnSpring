@@ -1,4 +1,4 @@
-package hello.core.oder;
+package hello.core.order;
 
 import hello.core.AppConfig;
 import hello.core.member.Grade;
