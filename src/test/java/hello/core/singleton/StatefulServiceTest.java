@@ -1,10 +1,10 @@
 package hello.core.singleton;
 
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
-import org.testng.annotations.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -22,7 +22,7 @@ class StatefulServiceTest {
 //        price1 = statefulService1.getPrice();
 //        System.out.println("price = " + price);
 
-        Assertions.assertThat(statefulService1).isEqualTo(20000);
+   //     Assertions.assertThat(statefulService1).isEqualTo(20000);
 
     }
 

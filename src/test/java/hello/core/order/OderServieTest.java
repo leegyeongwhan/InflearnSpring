@@ -21,13 +21,13 @@ public class OderServieTest {
         orderService = appConfig.orderService();
     }
 
-    @Test
-    void createOder() {
-        Long memberID = 1L;
-        Member member = new Member(1L, "memberA", Grade.VIP);
-        memberService.joint(member);
-
-        Order order = orderService.createOrder(memberID, "itemA", 10000);
-        Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
-    }
+//    @Test
+//    void createOder() {
+//        Long memberID = 1L;
+//        Member member = new Member(1L, "memberA", Grade.VIP);
+//        memberService.joint(member);
+//
+//        Order order = orderService.createOrder(memberID, "itemA", 10000);
+//        Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
+//    }
 }
